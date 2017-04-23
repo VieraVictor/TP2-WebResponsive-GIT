@@ -5,7 +5,13 @@
 	margin: 0;
 }
 
-li{
+ul,
+li,
+a{
 	list-style: none;
 	text-decoration: none;
+}
+
+.container{
+
 }
