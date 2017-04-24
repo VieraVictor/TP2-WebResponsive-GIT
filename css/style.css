@@ -3,6 +3,21 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
+
+}
+.main-header{
+	width: 100%;
+	height: 600px;
+	background-image: url('img/telefono-img.png'), url('img/fondo.png');
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'),-moz-linear-gradient(left, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.98) 25%, rgba(227,94,32,0.99) 81%, rgba(227,94,32,1) 100%);
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'),-webkit-gradient(left top, right top, color-stop(0%, rgba(26,80,130,0.97)), color-stop(0%, rgba(26,80,130,0.97)), color-stop(25%, rgba(26,80,130,0.98)), color-stop(81%, rgba(227,94,32,0.99)), color-stop(100%, rgba(227,94,32,1)));
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'),-webkit-linear-gradient(left, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.98) 25%, rgba(227,94,32,0.99) 81%, rgba(227,94,32,1) 100%);
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'),-o-linear-gradient(left, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.98) 25%, rgba(227,94,32,0.99) 81%, rgba(227,94,32,1) 100%);
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'),-ms-linear-gradient(left, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.98) 25%, rgba(227,94,32,0.99) 81%, rgba(227,94,32,1) 100%);
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'),linear-gradient(to right, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.97) 0%, rgba(26,80,130,0.98) 25%, rgba(227,94,32,0.99) 81%, rgba(227,94,32,1) 100%);
+	background-repeat: no-repeat, repeat;
+	background-position: 90% 100%;
 }
 
 ul,
@@ -10,8 +25,4 @@ li,
 a{
 	list-style: none;
 	text-decoration: none;
-}
-
-.container{
-
 }
