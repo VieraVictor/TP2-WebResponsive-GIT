@@ -39,6 +39,29 @@ body{
     background-position: 90% 100%;
 }
 
+/* MENÚ
+   =================================================================== */
+/* PADRE: Menú - HIJOS: Logo e Items del Menú */
+.header .menu{
+	padding-top: 15px;
+	display: flex; /* Establezco que voy a trabajar con Flex. */
+	flex-direction: row; /* Dirección de los elementos hijos. */
+	justify-content: space-between; /* Dejo espacio entre los hijos. */
+}
+
+.header .menu-items nav>a{
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+
+.header .menu-items nav>a:hover{
+  color:#494c46;
+}
+
 /* LOGO
    =================================================================== */
 .header .logo a{
@@ -47,17 +70,6 @@ body{
 	font-weight: 400;
 	letter-spacing: 2px;
 }
-
-/* MENÚ
-   =================================================================== */
-.header .menu-items nav>ul>li>a{
-	font-size: 11px;
-	color: #ffffff;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
 
 /* DOWNLOAD
 	 =================================================================== */
