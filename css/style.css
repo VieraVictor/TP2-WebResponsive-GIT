@@ -15,6 +15,11 @@ body{
 	font-family: Catamaran, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6{
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
 .container{
 	width: 90%;
 	padding-right: 25px;
@@ -39,36 +44,38 @@ body{
     background-position: 90% 100%;
 }
 
+.header .header-content h1{
+	color: #fff;
+}
+
 /* MENÚ
    =================================================================== */
 /* PADRE: Menú - HIJOS: Logo e Items del Menú */
-.header .menu{
+.header .header-menu{
 	padding-top: 15px;
 	display: flex; /* Establezco que voy a trabajar con Flex. */
 	flex-direction: row; /* Dirección de los elementos hijos. */
 	justify-content: space-between; /* Dejo espacio entre los hijos. */
 }
 
-.header .menu-items nav>a{
+.header .header-menu .menu-items nav>a{
 	font-size: 11px;
 	color: #ffffff;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 2px;
 	margin-right: 10px;
 }
 
-.header .menu-items nav>a:hover{
+.header .header-menu .menu-items nav>a:hover{
   color:#494c46;
 }
 
 /* LOGO
    =================================================================== */
-.header .logo a{
+.header .header-menu .logo a{
 	font-size: 18px;
 	color: #fff;
 	font-weight: 400;
-	letter-spacing: 2px;
 }
 
 /* DOWNLOAD
