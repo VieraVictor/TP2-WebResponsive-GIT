@@ -11,6 +11,10 @@ ul, li, a {
     text-decoration: none;
 }
 
+body{
+	font-family: Catamaran, Helvetica, sans-serif;
+}
+
 .container{
 	width: 90%;
 	padding-right: 25px;
@@ -18,7 +22,6 @@ ul, li, a {
 	margin-right: auto;
 	margin-left: auto;
 }
-
 
 /* HEADER
    =================================================================== */
