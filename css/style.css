@@ -32,8 +32,8 @@ h1, h2, h3, h4, h5, h6{
 
 .container{
 	width: 90%;
-	padding-right: 25px;
-	padding-left: 25px;
+	padding-right: 50px;
+	padding-left: 50px;
 	margin-right: auto;
 	margin-left: auto;
 }
