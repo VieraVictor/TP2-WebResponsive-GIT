@@ -136,3 +136,18 @@ h1, h2, h3, h4, h5, h6{
 }
 /* FOOTER
 	 =================================================================== */
+.footer{
+  background: #222;
+  padding: 15px;
+}
+
+.footer p, a{
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px;
+}
+
+.footer a:hover{
+  color: #ffb45b;
+}
