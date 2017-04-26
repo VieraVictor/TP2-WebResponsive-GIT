@@ -95,7 +95,29 @@ h1, h2, h3, h4, h5, h6{
 
 /* DOWNLOAD
 	 =================================================================== */
+#download{
+	height: 400px;
+	background-color: #ffb45b;
+}
 
+.download{
+	text-align: center;
+}
+
+.download h2{
+	font-size: 50px;
+	color: #ffffff;
+	padding-top: 80px;
+}
+
+.download p{
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+.badges{
+	margin-top: 15px;
+}
 
 /* FEATURES
 	 =================================================================== */
@@ -108,6 +130,8 @@ h1, h2, h3, h4, h5, h6{
 /* CONTAC
 	 =================================================================== */
 
-
+#contact{
+	background-color: #ffb45b
+}
 /* FOOTER
 	 =================================================================== */
