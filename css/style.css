@@ -105,12 +105,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .download h2{
-	font-size: 50px;
+	font-size: 70px;
 	color: #ffffff;
 	padding-top: 80px;
 }
 
 .download p{
+  font-size: 20px;
 	color: #ffffff;
 	padding-top: 10px;
 }
