@@ -31,8 +31,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn:hover{
-  	background-color: #ffce47;
-  	border: 1px solid #ffce47;
+  background-color: #ffce47;
+  border: 1px solid #ffce47;
 }
 
 .container{
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header .header-menu .menu-items nav>a:hover{
-  	color:#494c46;
+  color:#494c46;
 }
 
 /* LOGO
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6{
 .download{
 	height: 400px;
 	background-color: #ffce47;
-   	text-align: center;
+  text-align: center;
 }
 
 .download h2{
@@ -134,8 +134,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .features .section-title p{
-	font-size: 15px;
+	font-size: 20px;
 	padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 /* START-BUILDING
@@ -143,13 +144,13 @@ h1, h2, h3, h4, h5, h6{
 .start-building{
 	width: 100%;
 	height: 800px;
-    background-image: url("img/usuario.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    font-size: 60px;
-    color: #ffffff;
+  background-image: url("img/usuario.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  color: #ffffff;
 }
 
 /* CONTACT
@@ -158,10 +159,10 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #ffce47;
 	height: 350px;
 	text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 .contact ul{
@@ -185,11 +186,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .contact .ion-social-facebook{
-  	background: #3b5998;
+  background: #3b5998;
 }
 
 .contact .ion-social-twitter{
-  	background: #55acee;
+  background: #55acee;
 }
 
 .contact .ion-social-googleplus{
@@ -197,26 +198,26 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .contact .social-icon a i:hover{
-  	transform: scale(1.2) rotate(15deg);
+  transform: scale(1.2) rotate(15deg);
 }
 
 /* FOOTER
 	 =================================================================== */
 .footer{
-  	background: #222;
-  	padding: 25px;
-  	text-align: center;
+	background: #222;
+	padding: 25px;
+  text-align: center;
 }
 
 .footer p, a{
  	font-size: 14px;
-  	font-weight: 500;
-  	color: #666666;
-  	padding-top: 5px;
+  font-weight: 500;
+  color: #666666;
+  padding-top: 5px;
 }
 
 .footer a:hover{
-  	color: #ffce47;
+	color: #ffce47;
 }
 
 .conteiner, ul, li{
