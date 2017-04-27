@@ -193,6 +193,10 @@ h1, h2, h3, h4, h5, h6{
   background: #dd4b39;
 }
 
+.social-icon a i:hover{
+  transform: scale(1.2) rotate(15deg);
+}
+
 /* FOOTER
 	 =================================================================== */
 .footer{
