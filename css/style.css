@@ -163,10 +163,20 @@ h1, h2, h3, h4, h5, h6{
 	color: #FF564B;
 }
 
-.footer, .social-icon a i{
+.social-icon a i{
   color: #ffffff;
   margin-right: 6px;
-  font-size: 17px;
+  font-size: 45px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 85px;
+  border-radius: 50%;
+  transition: 0.25%;
+}
+
+.contact, .container ul{
+	padding-top: 15px;
 }
 
 .ion-social-facebook{
