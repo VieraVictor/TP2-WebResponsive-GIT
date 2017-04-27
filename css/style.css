@@ -147,15 +147,20 @@ h1, h2, h3, h4, h5, h6{
 	 =================================================================== */
 
 #contact{
-	background-color: #ffb45b;
+	background-color: #FFCE47;
 	height: 350px;
 	text-align: center;
 }
 
 .contact, .conteiner{
 	font-size: 40px;
+	color: #ffffff;
 	display: flex;
   	align-items: center;
+}
+
+.ion-heart{
+	color: #FF564B;
 }
 /* FOOTER
 	 =================================================================== */
