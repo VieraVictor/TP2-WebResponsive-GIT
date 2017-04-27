@@ -122,61 +122,52 @@ h1, h2, h3, h4, h5, h6{
 
 /* FEATURES
 	 =================================================================== */
-.section-title{
+.features .section-title{
 	text-align: center;
 }
 
-.section-title h2{
-	font-size: 35px;
+.features .section-title h2{
+	font-size: 50px;
 	padding-top: 70px;
 }
 
-.section-title p{
+.features .section-title p{
 	font-size: 15px;
 	padding-top: 10px;
 }
 
-
 /* START-BUILDING
 	 =================================================================== */
-#start-building{
-		width: 100%;
-		height: 800px;
-}
-
 .start-building{
-	background-image: url("img/usuario.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
+	width: 100%;
+	height: 800px;
+  background-image: url("img/usuario.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  color: #ffffff;
 }
 
-.start-building, .conteiner{
-	 display: flex;
-  	 align-items: center;
-	 font-size: 60px;
-	 color: #ffffff;
-	}
 /* CONTACT
 	 =================================================================== */
-
-#contact{
+.contact{
 	background-color: #FFCE47;
 	height: 350px;
 	text-align: center;
+
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
-.contact, .conteiner{
-	font-size: 40px;
-	color: #ffffff;
-	display: flex;
-  	align-items: center;
-}
-
-.ion-heart{
+.contact .ion-heart{
 	color: #FF564B;
 }
 
-.social-icon a i{
+.contact .social-icon a i{
   color: #ffffff;
   margin-right: 6px;
   font-size: 45px;
@@ -188,25 +179,24 @@ h1, h2, h3, h4, h5, h6{
   transition: 0.25%;
 }
 
-.contact, .container ul{
+.contact ul{
 	padding-top: 15px;
 }
 
-.ion-social-facebook{
+.contact .ion-social-facebook{
   background: #3b5998;
-
 }
 
-.ion-social-twitter{
+.contact .ion-social-twitter{
   background: #55acee;
-  color: 
+  color:
 }
 
-.ion-social-googleplus{
+.contact .ion-social-googleplus{
   background: #dd4b39;
 }
 
-.social-icon a i:hover{
+.contact .social-icon a i:hover{
   transform: scale(1.2) rotate(15deg);
 }
 
@@ -214,15 +204,15 @@ h1, h2, h3, h4, h5, h6{
 	 =================================================================== */
 .footer{
   background: #222;
-  padding: 30px;
+  padding: 25px;
   text-align: center;
 }
 
 .footer p, a{
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   color: #666666;
-  padding: 5px;
+  padding-top: 5px;
 }
 
 .footer a:hover{
