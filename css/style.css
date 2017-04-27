@@ -140,10 +140,9 @@ h1, h2, h3, h4, h5, h6{
 .start-building, .conteiner{
 	 display: flex;
   	 align-items: center;
-	 font-size: 70px;
+	 font-size: 60px;
 	 color: #ffffff;
 	}
-
 /* CONTACT
 	 =================================================================== */
 
