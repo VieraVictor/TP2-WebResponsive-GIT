@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6{
 	 =================================================================== */
 .footer{
   background: #222;
-  padding: 15px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -166,4 +166,8 @@ h1, h2, h3, h4, h5, h6{
 
 .footer a:hover{
   color: #ffb45b;
+}
+
+.conteiner, ul, li{
+	display: inline-block;
 }
