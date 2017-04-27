@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5, h6{
 	padding: 15px 45px;
 }
 
+.btn:hover{
+  background-color: #ffce47;
+  border: 1px solid #ffce47;
+}
+
 .container{
 	width: 90%;
 	padding-right: 50px;
@@ -95,13 +100,10 @@ h1, h2, h3, h4, h5, h6{
 
 /* DOWNLOAD
 	 =================================================================== */
-#download{
-	height: 400px;
-	background-color: #ffb45b;
-}
-
 .download{
-	text-align: center;
+	height: 400px;
+	background-color: #ffce47;
+  text-align: center;
 }
 
 .download h2{
@@ -153,14 +155,17 @@ h1, h2, h3, h4, h5, h6{
 /* CONTACT
 	 =================================================================== */
 .contact{
-	background-color: #FFCE47;
+	background-color: #ffce47;
 	height: 350px;
 	text-align: center;
-
   font-size: 40px;
   color: #ffffff;
   display: flex;
   align-items: center;
+}
+
+.contact ul{
+	padding-top: 15px;
 }
 
 .contact .ion-heart{
@@ -177,10 +182,6 @@ h1, h2, h3, h4, h5, h6{
   line-height: 85px;
   border-radius: 50%;
   transition: 0.25%;
-}
-
-.contact ul{
-	padding-top: 15px;
 }
 
 .contact .ion-social-facebook{
@@ -216,7 +217,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .footer a:hover{
-  color: #ffb45b;
+  color: #ffce47;
 }
 
 .conteiner, ul, li{
