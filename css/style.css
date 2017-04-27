@@ -126,8 +126,16 @@ h1, h2, h3, h4, h5, h6{
 
 /* START-BUILDING
 	 =================================================================== */
+#start-building{
+		width: 100%;
+		height: 800px;
+}
 
-
+.start-building{
+	background-image: url("img/usuario.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
 /* CONTAC
 	 =================================================================== */
 
