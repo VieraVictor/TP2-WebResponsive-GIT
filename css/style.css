@@ -148,8 +148,14 @@ h1, h2, h3, h4, h5, h6{
 
 #contact{
 	background-color: #ffb45b;
-	height: 400px;
+	height: 350px;
 	text-align: center;
+}
+
+.contact, .conteiner{
+	font-size: 40px;
+	display: flex;
+  	align-items: center;
 }
 /* FOOTER
 	 =================================================================== */
