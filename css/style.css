@@ -122,6 +122,19 @@ h1, h2, h3, h4, h5, h6{
 
 /* FEATURES
 	 =================================================================== */
+.section-title{
+	text-align: center;
+}
+
+.section-title h2{
+	font-size: 35px;
+	padding-top: 70px;
+}
+
+.section-title p{
+	font-size: 15px;
+	padding-top: 10px;
+}
 
 
 /* START-BUILDING
