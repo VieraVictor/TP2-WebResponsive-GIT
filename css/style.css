@@ -162,6 +162,27 @@ h1, h2, h3, h4, h5, h6{
 .ion-heart{
 	color: #FF564B;
 }
+
+.footer, .social-icon a i{
+  color: #ffffff;
+  margin-right: 6px;
+  font-size: 17px;
+}
+
+.ion-social-facebook{
+  background: #3b5998;
+
+}
+
+.ion-social-twitter{
+  background: #55acee;
+  color: 
+}
+
+.ion-social-googleplus{
+  background: #dd4b39;
+}
+
 /* FOOTER
 	 =================================================================== */
 .footer{
