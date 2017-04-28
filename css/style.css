@@ -1,14 +1,14 @@
 /* ESTILOS GENERALES
    =================================================================== */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 ul, li, a {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 body{
@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6{
 	color: #fff;
 	border-radius: 30px;
 	border: 1px solid #fff;
+  transition: all 0.5s;
 	padding: 15px 45px;
 }
 
@@ -36,24 +37,24 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .container{
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
 /* HEADER
    =================================================================== */
 .header{
-    width: 100%;
-    height: 600px;
-    background-image: url('img/telefono-img.png'), url('img/fondo.png');
-    background-image: url('img/telefono-img.png'), url('img/fondo.png'), -moz-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
-    background-image: url('img/telefono-img.png'), url('img/fondo.png'), -webkit-gradient(left top, right top, color-stop(0%, rgba(26, 80, 130, 0.97)), color-stop(0%, rgba(26, 80, 130, 0.97)), color-stop(25%, rgba(26, 80, 130, 0.98)), color-stop(81%, rgba(227, 94, 32, 0.99)), color-stop(100%, rgba(227, 94, 32, 1)));
-    background-image: url('img/telefono-img.png'), url('img/fondo.png'), -webkit-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
-    background-image: url('img/telefono-img.png'), url('img/fondo.png'), -o-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
-    background-image: url('img/telefono-img.png'), url('img/fondo.png'), -ms-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
-    background-image: url('img/telefono-img.png'), url('img/fondo.png'), linear-gradient(to right, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
-    background-repeat: no-repeat, repeat;
-    background-position: 93% 100%;
+  width: 100%;
+  height: 600px;
+  background-image: url('img/telefono-img.png'), url('img/fondo.png');
+  background-image: url('img/telefono-img.png'), url('img/fondo.png'), -moz-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+  background-image: url('img/telefono-img.png'), url('img/fondo.png'), -webkit-gradient(left top, right top, color-stop(0%, rgba(26, 80, 130, 0.97)), color-stop(0%, rgba(26, 80, 130, 0.97)), color-stop(25%, rgba(26, 80, 130, 0.98)), color-stop(81%, rgba(227, 94, 32, 0.99)), color-stop(100%, rgba(227, 94, 32, 1)));
+  background-image: url('img/telefono-img.png'), url('img/fondo.png'), -webkit-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+  background-image: url('img/telefono-img.png'), url('img/fondo.png'), -o-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+  background-image: url('img/telefono-img.png'), url('img/fondo.png'), -ms-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+  background-image: url('img/telefono-img.png'), url('img/fondo.png'), linear-gradient(to right, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: 86% 100%;
 }
 
 .header .header-content h1{
@@ -128,8 +129,8 @@ h1, h2, h3, h4, h5, h6{
 
 .features .features-container{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .features .section-title{
@@ -177,7 +178,7 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #ffce47;
   padding: 100px;
 	text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   color: #ffffff;
   display: flex;
   align-items: center;
