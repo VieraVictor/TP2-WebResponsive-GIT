@@ -1,5 +1,18 @@
 /* ESTILOS GENERALES
+ =================================================================== */
+/* ESTILOS GENERALES
    =================================================================== */
+
+  /* Media - Móvil 
+  ----------------------------------------------------*/
+
+  /* Media - Tablet
+  ------------------------------------------------------*/
+
+  /* Media - Desktop
+-------------------------------------------------------*/
+@media only screen and (min-width: 1100px){
+
 * {
 	padding: 0;
   	margin: 0;
@@ -60,7 +73,7 @@ h1, h2, h3, h4, h5, h6{
 .header .header-content h1{
 	font-size: 50px;
 	color: #fff;
-	max-width: 670px;
+	width: 64%;
 	margin-top: 150px;
 }
 
@@ -255,4 +268,5 @@ h1, h2, h3, h4, h5, h6{
 
 .conteiner, ul, li{
 	display: inline-block;
+}
 }
