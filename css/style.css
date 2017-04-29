@@ -1,6 +1,4 @@
 /* ESTILOS GENERALES
- =================================================================== */
-/* ESTILOS GENERALES
    =================================================================== */
 * {
 	padding: 0;
@@ -277,7 +275,7 @@ h1, h2, h3, h4, h5, h6{
 }
 }
 
-/* 530px and 767px */
+/* 530px and 767px REVISAR LUEGO!!!*/
 
 @media (min-width: 530px) and (max-width: 767px){
 .container{
@@ -285,16 +283,57 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0 auto;
 }
 
+.header{
+	width: 100%;
+	height: 800px;
+	background-image: url('img/telefono-img.png'), url('img/fondo.png');
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'), -moz-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'), -webkit-gradient(left top, right top, color-stop(0%, rgba(26, 80, 130, 0.97)), color-stop(0%, rgba(26, 80, 130, 0.97)), color-stop(25%, rgba(26, 80, 130, 0.98)), color-stop(81%, rgba(227, 94, 32, 0.99)), color-stop(100%, rgba(227, 94, 32, 1)));
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'), -webkit-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'), -o-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'), -ms-linear-gradient(left, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+	background-image: url('img/telefono-img.png'), url('img/fondo.png'), linear-gradient(to right, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.97) 0%, rgba(26, 80, 130, 0.98) 25%, rgba(227, 94, 32, 0.99) 81%, rgba(227, 94, 32, 1) 100%);
+	background-repeat: no-repeat, repeat;
+	background-position: 50% 100%;
+}
+
+.header .header-content h1{
+	width: 100%;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
 .header .header-menu{
 	background-color: black;
 	padding: 15px;
 }
+
+.header .header-content{
+	text-align: center;
+}
+
+.features .section-title{
+	text-align: center;
+}
+
+.features .section-title h2{
+	font-size: 50px;
+}
+
+.features .section-title p{
+	font-size: 20px;
+	margin-top: 0 auto;
+ 	padding-bottom: 50px;
+}
+
 }
 
 /* Media - Tablet
 ------------------------------------------------------*/
 
-/* 768px and 1199px */
+/* 768px and 1199px REVISAR LUEGO!!!!*/
 
 @media (min-width: 768px) and (max-width: 1199px){
 .container{
