@@ -260,18 +260,50 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-  /* Media - Móvil 
-  ----------------------------------------------------*/
+/* Media - Móvil 
+----------------------------------------------------*/
 
-  @media (min-width: 320px) and (max-width: 767px){
+/* 270px and 529px */
 
+@media (min-width: 270px) and (max-width: 529px){
+  	.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header .header-menu{
+	background-color: black;
+	padding: 15px;
 }
 }
 
-  /* Media - Tablet
-  ------------------------------------------------------*/
+/* 530px and 767px */
+
+  @media (min-width: 530px) and (max-width: 767px){
+  	.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header .header-menu{
+	background-color: black;
+	padding: 15px;
+}
+}
+
+/* Media - Tablet
+------------------------------------------------------*/
+
+/* 768px and 1199px */
 
 @media (min-width: 768px) and (max-width: 1199px){
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
 
+.header .header-menu{
+	background-color: black;
+	padding: 15px;
 }
 }
