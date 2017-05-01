@@ -61,13 +61,13 @@ h1, h2, h3, h4, h5, h6{
 	display: flex;
 }
 
-.header .header-content .text-content h1{
+.header .header-content .header-text h1{
 	font-size: 50px;
 	color: #fff;
 	margin-top: 150px;
 }
 
-.header .header-content .image-content{
+.header .header-content .header-image{
 	margin-top: 83px;
 }
 
@@ -265,30 +265,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/* Media - Móvil 
-----------------------------------------------------*/
 
-/* 270px and 529px */
-
-@media (min-width: 270px) and (max-width: 529px){
-.container{
-	width: 100%;
-	margin: 0 auto;
-}
-
-.header .header-menu{
-	background-color: black;
-	padding: 15px;
-}
-}
-
-/* 530px and 767px REVISAR LUEGO!!!*/
 
 @media (min-width: 530px) and (max-width: 767px){
 
 .container{
 	width: 100%;
-	margin: 0 auto;
 }
 
 .header{
@@ -307,7 +289,7 @@ h1, h2, h3, h4, h5, h6{
 	display: inline-block;
 }
 
-.header .header-content .text-content h1{
+.header .header-content .header-text h1{
 	width: 100%;
 	margin-top: 30px;
 	font-size: 30px;
@@ -331,20 +313,46 @@ h1, h2, h3, h4, h5, h6{
 .features-grid{
 
 }
-
-/* Media - Tablet
-------------------------------------------------------*/
-
-/* 768px and 1199px REVISAR LUEGO!!!!*/
-
-@media (min-width: 768px) and (max-width: 1199px){
-.container{
-	width: 100%;
-	margin: 0 auto;
 }
 
-.header .header-menu{
-	background-color: black;
-	padding: 15px;
+@media (min-width: 768px) and (max-width: 1194px){
+
+.container{
+	width: 100%;
+}
+
+.header .header-menu .logo a{
+	margin-left: 20px;
+}
+
+.header .header-content .header-text h1{
+	font-size: 40px;
+	text-align: center;
+	width: 95%;
+	margin-left: 10px;
+	margin-bottom: 6%;
+}
+
+@media (min-width: 960px) and (max-width: 1194px){
+
+.header .header-content .btn{
+	margin-left: 35%;
+}
+}
+
+@media (min-width: 810px) and (max-width: 959px){
+
+.header .header-content .btn{
+	margin-left: 28%;
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 809px){
+
+.header .header-content .btn{
+	margin-left: 24%;
+
+}
 }
 }
