@@ -264,29 +264,25 @@ h1, h2, h3, h4, h5, h6{
 	display: inline-block;
 }
 
+/* =============================================================== FIN DEL CSS GENERAL ========================================================= */
 
 
 
+/* =============================================================== INICIO DE MEDIAQUERIES ====================================================== */
+
+/* ==================== INICIO 530PX a 1194PX ==================== */
 
 @media (min-width: 530px) and (max-width: 1194px){
 
-
-
-
-
 .container{
 	width: 100%;
 }
 
 
 
-
+/* ==================== INICIO 531PX a 767PX ==================== */
 
 @media (min-width: 531px) and (max-width: 767px){
-
-.container{
-	width: 100%;
-}
 
 .header{
 	width: 100%;
@@ -332,9 +328,15 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+/* ==================== FIN 531PX a 767PX ==================== */
 
 
-@media (min-width: 768px) and (max-width: 1193px){
+/* ==================== INICIO 768PX a 809PX ==================== */
+
+
+
+@media (min-width: 768px) and (max-width: 809px){
+
 .header .header-menu .logo a{
 	margin-left: 20px;
 }
@@ -344,43 +346,8 @@ h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	width: 95%;
 	margin-left: 10px;
-	margin-bottom: 6%;
+	margin-bottom: 6%
 }
-
-.download h2{
-	font-size: 60px;
-}
-}
-
-
-
-
-
-@media (min-width: 960px) and (max-width: 1194px){
-
-.header .header-content .btn{
-	margin-left: 35%;
-}
-}
-
-
-
-
-
-@media (min-width: 810px) and (max-width: 959px){
-
-.header .header-content .btn{
-	margin-left: 28%;
-
-}
-}
-
-
-
-
-
-
-@media (min-width: 768px) and (max-width: 809px){
 
 .header .header-content .btn{
 	margin-left: 24%;
@@ -389,7 +356,65 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/* ==================== FIN 768PX a 809PX ==================== */
 
 
+/* ==================== INICIO 810PX a 959PX ==================== */
+
+
+
+@media (min-width: 810px) and (max-width: 959px){
+
+.header .header-menu .logo a{
+	margin-left: 20px;
+}
+
+.header .header-content .header-text h1{
+	font-size: 40px;
+	text-align: center;
+	width: 95%;
+	margin-left: 10px;
+	margin-bottom: 6%
+}
+
+.header .header-content .btn{
+	margin-left: 28%;
 
 }
+}
+
+
+/* ==================== FIN 810PX a 959PX ==================== */
+
+
+/* ==================== INICIO 960PX a 1194PX ==================== */
+
+
+
+@media (min-width: 960px) and (max-width: 1194px){
+
+.header .header-menu .logo a{
+	margin-left: 20px;
+}
+
+.header .header-content .header-text h1{
+	font-size: 40px;
+	text-align: center;
+	width: 95%;
+	margin-left: 10px;
+	margin-bottom: 6%
+}
+
+.header .header-content .btn{
+	margin-left: 35%;
+}
+}
+
+}
+
+
+
+/* ==================== FIN 960PX a 1194PX ==================== */
+
+
+/* ==================== FIN 530PX a 1194PX ==================== */
