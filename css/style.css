@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .features .features-items p{
-  	font-size: 18px;
+  	font-size: 16px;
   	text-align: center;
 }
 
@@ -273,25 +273,95 @@ h1, h2, h3, h4, h5, h6{
 /* =============================================================== INICIO DE MEDIAQUERIES ====================================================== */
 
 
-/* ==================== INICIO 530PX a 1194PX ==================== */
+/* ==================== INICIO 320PX a 1194PX ==================== */
 
 
 
-
-@media (min-width: 530px) and (max-width: 1194px){
+@media (min-width: 320px) and (max-width: 1194px){
 
 .container{
 	width: 100%;
 }
 
 
+/* ==================== INICIO 320PX a 530PX ==================== */
+
+
+
+@media (min-width: 320px) and (max-width: 530px){
+	.header{
+	width: 100%;
+	height: 844px;
+	background-position: 50% 100%;
+}
+
+.header .header-menu{
+	background-color: black;
+	padding: 15px;
+}
+
+.header .header-content{
+	text-align: center;
+	display: inline-block;
+}
+
+.header .header-content .header-text h1{
+	width: 100%;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.download h2{
+	font-size: 50px;
+}
+
+.features{
+	padding-top: 60px;
+}
+
+.features .container .telephone{
+	text-align: center;
+}
+
+.features .container .features-container, .features-grid, .features-items{
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.start-building .container, h2{
+	margin-left: 20px;
+	font-size: 70px;
+}
+
+.start-building .container .btn{
+	margin-left: 50px;
+}
+
+.contact .contanier, h2{
+	font-size: 50px;
+}
+
+.contact .container .social-icon a i{
+	font-size: 34px;
+	width: 60px;
+    height: 58px;
+    line-height: 64px;
+}
+
+}
+
+
+/* ==================== FIN 320PX a 530PX ==================== */
 
 
 /* ==================== INICIO 531PX a 550PX ==================== */
 
 
 
-@media (min-width: 531px) and (max-width: 550px){
+@media (min-width: 531px) and (max-width: 614px){
 
 .header{
 	width: 100%;
@@ -326,24 +396,47 @@ h1, h2, h3, h4, h5, h6{
 	padding-top: 60px;
 }
 
-.features-container .telephone{
+.features .container .telephone{
 	text-align: center;
 }
 
-.features-grid{
+.features .container .features-container, .features-grid, .features-items{
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.start-building .container, h2{
+	margin-left: 20px;
+	font-size: 70px;
+}
+
+.start-building .container .btn{
+	margin-left: 50px;
+}
+
+.contact .contanier, h2{
+	font-size: 50px;
+}
+
+.contact .container .social-icon a i{
+	font-size: 34px;
+	width: 60px;
+    height: 58px;
+    line-height: 64px;
+}
+
 
 }
-}
 
 
-/* ==================== FIN 531PX a 550X ==================== */
+/* ==================== FIN 531PX a 614X ==================== */
 
 
-/* ==================== INICIO 551PX a 767PX ==================== */
+/* ==================== INICIO 615PX a 767PX ==================== */
 
 
 
-@media (min-width: 551px) and (max-width: 767px){
+@media (min-width: 615px) and (max-width: 767px){
 
 .header{
 	width: 100%;
@@ -378,13 +471,35 @@ h1, h2, h3, h4, h5, h6{
 	padding-top: 60px;
 }
 
-.features-container .telephone{
+.features .container .telephone{
 	text-align: center;
 }
 
-.features-grid{
-
+.features .container .features-container, .features-grid, .features-items{
+	flex-direction: column;
+	margin-top: 10px;
 }
+
+.start-building .container, h2{
+	margin-left: 20px;
+	font-size: 70px;
+}
+
+.start-building .container .btn{
+	margin-left: 50px;
+}
+
+.contact .contanier, h2{
+	font-size: 60px;
+}
+
+.contact .container .social-icon a i{
+	font-size: 34px;
+	width: 60px;
+    height: 58px;
+    line-height: 64px;
+}
+
 }
 
 
@@ -411,9 +526,40 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header .header-content .btn{
-	margin-left: 24%;
+	margin-left: 22%;
 
 }
+
+.download h2{
+	font-size: 50px;
+}
+
+.features .container .telephone{
+	margin-top: 70px;
+	margin-right: 5px;
+}
+
+.start-building .container, h2{
+	margin-left: 20px;
+	font-size: 70px;
+}
+
+.start-building .container .btn{
+	margin-left: 50px;
+}
+
+.contact .contanier, h2{
+	font-size: 60px;
+}
+
+.contact .container .social-icon a i{
+	font-size: 34px;
+	width: 60px;
+    height: 58px;
+    line-height: 64px;
+}
+
+
 }
 
 
@@ -443,8 +589,32 @@ h1, h2, h3, h4, h5, h6{
 	margin-left: 28%;
 
 }
+
+.download h2{
+	font-size: 50px;
 }
 
+.start-building .container, h2{
+	margin-left: 20px;
+	font-size: 70px;
+}
+
+.start-building .container .btn{
+	margin-left: 50px;
+}
+
+.contact .contanier, h2{
+	font-size: 60px;
+}
+
+.contact .container .social-icon a i{
+	font-size: 34px;
+	width: 60px;
+    height: 58px;
+    line-height: 64px;
+}
+
+}
 
 
 /* ==================== FIN 810PX a 959PX ==================== */
@@ -454,7 +624,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 
-@media (min-width: 960px) and (max-width: 1194px){
+@media (min-width: 960px) and (max-width: 1193px){
 
 .header .header-menu .logo a{
 	margin-left: 20px;
@@ -471,13 +641,32 @@ h1, h2, h3, h4, h5, h6{
 .header .header-content .btn{
 	margin-left: 35%;
 }
+
+
+.start-building .container, h2{
+	margin-left: 20px;
+	font-size: 70px;
+}
+
+.start-building .container .btn{
+	margin-left: 50px;
+}
+
+.contact .contanier, h2{
+	font-size: 60px;
+}
+
+.contact .container .social-icon a i{
+	font-size: 34px;
+	width: 60px;
+    height: 58px;
+    line-height: 64px;
 }
 
 }
 
 
+/* ==================== FIN 960PX a 1193PX ==================== */
 
-/* ==================== FIN 960PX a 1194PX ==================== */
 
-
-/* ==================== FIN 530PX a 1194PX ==================== */
+/* ==================== FIN 320PX a 1194PX ==================== */
